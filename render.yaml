@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: atizastyle-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    region: oregon
+    plan: free
